@@ -25,9 +25,11 @@ ContentAreaContainer.Item = styled.div`
 `;
 
 ContentAreaContainer.Category = styled.h1`
-  font-family: Roboto;
+  /*font-family: Roboto; */
+  font-family: 'Press Start 2P';
   font-style: normal;
   font-weight: normal;
+  /*font-size: 60px; */
   font-size: 60px;
   line-height: 70px;
   display: flex;
@@ -48,13 +50,14 @@ ContentAreaContainer.Category = styled.h1`
 ContentAreaContainer.Description = styled.p`
   @media (max-width: 800px) {
     display: none;
+    font-size: 40px;
   }
 `;
 
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
